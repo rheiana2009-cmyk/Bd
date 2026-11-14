@@ -1321,7 +1321,7 @@ button:focus-visible{outline:3px solid rgba(226,174,194,.75);outline-offset:4px}
 <div id="cursorTrail"></div>
 <div id="fireworks"></div>
 
-<audio id="bgmusic" loop preload="auto"><source src="music/bgmusic.mp3" type="audio/mpeg"></audio>
+<audio id="bgmusic" loop preload="auto"><source src="bgmusic.mp3" type="audio/mpeg"></audio>
 <button class="sound-toggle" id="soundToggle" onclick="toggleBackgroundMusic()" aria-label="Toggle background music">♫</button>
 
 <section class="screen" id="passScreen">
@@ -1369,8 +1369,8 @@ button:focus-visible{outline:3px solid rgba(226,174,194,.75);outline-offset:4px}
 <div class="calendar">
 <div class="calendar-top"><h2>It's Your Special Day!</h2><p>MY FAVORITE HUMAN ♡</p></div>
 <div class="photo-grid">
-<div class="photo-frame" onclick="openPhotoLightbox(this)"><img src="photos/photo1.jpg" alt="First birthday photo"><p>my favorite ♡</p></div>
-<div class="photo-frame" onclick="openPhotoLightbox(this)"><img src="photos/photo2.jpg" alt="Second birthday photo"><p>my pretty boy ♡</p></div>
+<div class="photo-frame" onclick="openPhotoLightbox(this)"><img src="photo1.jpg" alt="First birthday photo"><p>my favorite ♡</p></div>
+<div class="photo-frame" onclick="openPhotoLightbox(this)"><img src="wphoto2.jpg" alt="Second birthday photo"><p>my pretty boy ♡</p></div>
 </div>
 <div class="birthday-calendar">
 <h3>November ♡</h3><p class="year">TWO THOUSAND TWENTY-SIX</p>
@@ -1441,10 +1441,10 @@ button:focus-visible{outline:3px solid rgba(226,174,194,.75);outline-offset:4px}
    <audio id="voiceMessage" preload="auto"><source src="audio/voice-message.mp3" type="audio/mpeg"></audio>
    <h3 class="gallery-heading">Our little memories ♡</h3>
    <div class="memory-gallery" id="memoryGallery" aria-label="Four favorite photos. Swipe sideways to browse." tabindex="0">
-    <div class="memory-card camera"><img src="photos/mylove1.jpg" alt="Memory photo one"><p>my favourite moment ♡</p></div>
-    <div class="memory-card tape"><img src="photos/mylove2.jpg" alt="Memory photo two"><p>my pretty boy</p></div>
-    <div class="memory-card"><img src="photos/mylove3.jpg" alt="Memory photo three"><p>one of my happiest days ✧</p></div>
-    <div class="memory-card tape"><img src="photos/mylove4.jpg" alt="Memory photo four"><p>always you, baby ♡</p></div>
+    <div class="memory-card camera"><img src="mylove1.jpg" alt="Memory photo one"><p>my favourite moment ♡</p></div>
+    <div class="memory-card tape"><img src="mylove2.jpg" alt="Memory photo two"><p>my pretty boy</p></div>
+    <div class="memory-card"><img src="mylove3.jpg" alt="Memory photo three"><p>one of my happiest days ✧</p></div>
+    <div class="memory-card tape"><img src="mylove4.jpg" alt="Memory photo four"><p>always you, baby ♡</p></div>
    </div>
    <div class="gallery-controls">
     <button class="gallery-arrow" type="button" onclick="moveMemoryGallery(-1)" aria-label="Previous photo">‹</button>
@@ -1471,13 +1471,13 @@ button:focus-visible{outline:3px solid rgba(226,174,194,.75);outline-offset:4px}
 </div>
 <div class="music-controls">
 <button class="music-control" onclick="skipSong(-10)" aria-label="Back 10 seconds">↶</button>
-<button class="music-control primary" id="musicPlayBtn" onclick="toggleOurSong()" aria-label="Play or pause">▶</button>
+<button class="music-control primary" id="musicPlayBtn" onclick="toggleOurSong.mp3()" aria-label="Play or pause">▶</button>
 <button class="music-control" onclick="skipSong(10)" aria-label="Forward 10 seconds">↷</button>
 </div>
 <input class="music-progress" id="musicProgress" type="range" min="0" max="100" value="0" step=".1" aria-label="Song progress">
 <div class="music-time"><span id="musicCurrent">0:00</span><span id="musicDuration">0:00</span></div>
 <audio id="myMusic" preload="metadata">
-<source src="music/oursong.mp3" type="audio/mpeg">
+<source src="oursong.mp3" type="audio/mpeg">
 Your browser does not support audio.
 </audio>
 </div>
@@ -1611,7 +1611,7 @@ Your browser does not support audio.
 <div id="cakeAfter" class="hidden">
 <h2>hbd palangging ♡</h2>
 <p class="subtitle">I hope your wishes come true!</p>
-<img class="cake-photo" src="photos/baby.jpg" alt="My favorite birthday boy">
+<img class="cake-photo" src="baby.jpg" alt="My favorite birthday boy">
 <div class="long-letter">
 <div class="letter-title">To my favorite person ♡</div>
 Happy birthday, my baby!
